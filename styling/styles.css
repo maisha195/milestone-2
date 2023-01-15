@@ -113,15 +113,30 @@ button-2{
 }
 .img-holder{
     padding-top: 100px;
+    /* position: relative; */
 }
+
+/* .img-holder .third-button{
+    bottom: 700px;
+    position: absolute;
+    
+} */
 .vl {
+    
     border-left: 6px solid  #FF900E;
     height: 70px;
     position: absolute
     padding-left: 50px;
+   
   }
+  /* .win-container{
+    transform: rotate(-45deg)
+  } */
+
   
+
   .third-button{
+    
     background-color: #FF900E;
     border-radius: 5px;
     color: #FFFFFF;
@@ -166,16 +181,13 @@ button-2{
    border-radius: 8px;
    width: 1100px;
     height: 80px;
-    margin-left: 70px;
+    margin-left: 80px;
   }
     .fourth-section img{
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
     }
 
-    .img-holder .button-3{
-        position: relative;
-    }
 
   /* Media query */
   @media only screen and (max-width:576px){
